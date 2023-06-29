@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Setting extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'logo',
+        'email',
+        'phone_no',
+        'address',
+        'meta_title',
+        'meta_keywords',
+        'meta_description',
+        'header_code',
+        'footer_code'
+    ];
+}
